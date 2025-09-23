@@ -2,18 +2,18 @@
 
 int main () {
 
-int i;
+float i;
 int x;
-int sum;
+float sum;
 
 printf("Insert a number\n");
-scanf("%i", &i);
+scanf("%f", &i);
 
 
 
 for (x = 0; x <=10; x++) {
     sum = x * i;
-    printf("%i * %i = %i\n", i, x, sum);
+    printf("%.2f * %i = %.2f\n", i, x, sum);
 }
 
 
